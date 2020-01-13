@@ -2,8 +2,7 @@
 
 ```@raw html
 <pre class='hljl'>
-<span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
- </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>StatsMakie</span><span class='hljl-t'>
+<span class='hljl-t'> </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>StatsMakie</span><span class='hljl-t'>
  </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>DataFrames</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>RDatasets</span><span class='hljl-t'> </span><span class='hljl-cs'># for data</span><span class='hljl-t'>
  </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>StatsMakie</span><span class='hljl-oB'>:</span><span class='hljl-t'> </span><span class='hljl-n'>smooth</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>linear</span><span class='hljl-t'>
  </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Distributions</span><span class='hljl-t'>
@@ -64,35 +63,35 @@
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery//analysis/media/image2.jpg" alt="">
+        <img src="http://simondanisch.github.io/ReferenceImages/gallery//analysis/media/image2.jpg" alt="">
 
     </p>
 </div>
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery//analysis/media/image3.jpg" alt="">
+        <img src="http://simondanisch.github.io/ReferenceImages/gallery//analysis/media/image3.jpg" alt="">
 
     </p>
 </div>
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery//analysis/media/image4.jpg" alt="">
+        <img src="http://simondanisch.github.io/ReferenceImages/gallery//analysis/media/image4.jpg" alt="">
 
     </p>
 </div>
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery//analysis/media/image5.jpg" alt="">
+        <img src="http://simondanisch.github.io/ReferenceImages/gallery//analysis/media/image5.jpg" alt="">
 
     </p>
 </div>
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery//analysis/media/image6.jpg" alt="">
+        <img src="http://simondanisch.github.io/ReferenceImages/gallery//analysis/media/image6.jpg" alt="">
 
     </p>
 </div>

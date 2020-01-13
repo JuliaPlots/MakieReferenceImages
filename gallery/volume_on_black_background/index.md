@@ -2,8 +2,7 @@
 
 ```@raw html
 <pre class='hljl'>
-<span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
-
+<span class='hljl-t'>
  </span><span class='hljl-n'>r</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>LinRange</span><span class='hljl-p'>(</span><span class='hljl-oB'>-</span><span class='hljl-ni'>3</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-ni'>3</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-ni'>100</span><span class='hljl-p'>);</span><span class='hljl-t'>  </span><span class='hljl-cs'># our value range</span><span class='hljl-t'>
 
  </span><span class='hljl-nf'>ρ</span><span class='hljl-p'>(</span><span class='hljl-n'>x</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>y</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>z</span><span class='hljl-p'>)</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>exp</span><span class='hljl-p'>(</span><span class='hljl-oB'>-</span><span class='hljl-p'>(</span><span class='hljl-nf'>abs</span><span class='hljl-p'>(</span><span class='hljl-n'>x</span><span class='hljl-p'>)))</span><span class='hljl-t'> </span><span class='hljl-cs'># function (charge density)</span><span class='hljl-t'>
@@ -31,7 +30,7 @@
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery//volume_on_black_background/media/image.jpg" alt="">
+        <img src="http://simondanisch.github.io/ReferenceImages/gallery//volume_on_black_background/media/image.jpg" alt="">
 
     </p>
 </div>

@@ -2,8 +2,7 @@
 
 ```@raw html
 <pre class='hljl'>
-<span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
- </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Colors</span><span class='hljl-t'>
+<span class='hljl-t'> </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Colors</span><span class='hljl-t'>
 
  </span><span class='hljl-s'>&quot;&quot;&quot;
  This example is courtesy of @neuralian through the Julia Discourse.
@@ -40,18 +39,19 @@
 
  </span><span class='hljl-n'>S</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>Scene</span><span class='hljl-p'>(</span><span class='hljl-n'>resolution</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-p'>(</span><span class='hljl-ni'>800</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-ni'>600</span><span class='hljl-p'>))</span><span class='hljl-t'>
  </span><span class='hljl-nf'>hbox</span><span class='hljl-p'>(</span><span class='hljl-n'>scene</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>s1</span><span class='hljl-p'>;</span><span class='hljl-t'> </span><span class='hljl-n'>parent</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-n'>S</span><span class='hljl-p'>)</span><span class='hljl-t'>
- </span><span class='hljl-nf'>display</span><span class='hljl-p'>(</span><span class='hljl-n'>S</span><span class='hljl-p'>)</span><span class='hljl-t'>
-
- </span><span class='hljl-nd'>@async</span><span class='hljl-t'> </span><span class='hljl-k'>while</span><span class='hljl-t'> </span><span class='hljl-nf'>isopen</span><span class='hljl-p'>(</span><span class='hljl-n'>S</span><span class='hljl-p'>)</span><span class='hljl-t'>
-     </span><span class='hljl-n'>p</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>p₀</span><span class='hljl-p'>((</span><span class='hljl-nfB'>10.0</span><span class='hljl-oB'>+</span><span class='hljl-n'>kx</span><span class='hljl-p'>[])</span><span class='hljl-oB'>/</span><span class='hljl-nfB'>10.</span><span class='hljl-p'>)</span><span class='hljl-t'>
-     </span><span class='hljl-n'>gateState</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>rand</span><span class='hljl-p'>(</span><span class='hljl-ni'>1</span><span class='hljl-p'>)[]</span><span class='hljl-t'> </span><span class='hljl-oB'>&lt;</span><span class='hljl-t'> </span><span class='hljl-n'>p</span><span class='hljl-t'>
-     </span><span class='hljl-n'>HC_handle</span><span class='hljl-p'>[</span><span class='hljl-sc'>:color</span><span class='hljl-p'>]</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-n'>gateState</span><span class='hljl-t'> </span><span class='hljl-oB'>?</span><span class='hljl-t'> </span><span class='hljl-sc'>:gold1</span><span class='hljl-t'> </span><span class='hljl-oB'>:</span><span class='hljl-t'> </span><span class='hljl-sc'>:dodgerblue1</span><span class='hljl-t'>
-     </span><span class='hljl-nf'>push!</span><span class='hljl-p'>(</span><span class='hljl-n'>D</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-oB'>-</span><span class='hljl-nfB'>3.</span><span class='hljl-t'> </span><span class='hljl-oB'>+</span><span class='hljl-t'> </span><span class='hljl-nf'>rand</span><span class='hljl-p'>(</span><span class='hljl-ni'>1</span><span class='hljl-p'>)[]</span><span class='hljl-oB'>/</span><span class='hljl-nfB'>5.</span><span class='hljl-p'>)</span><span class='hljl-t'>
-     </span><span class='hljl-nf'>yield</span><span class='hljl-p'>()</span><span class='hljl-t'>
+ </span><span class='hljl-nd'>@async</span><span class='hljl-t'> </span><span class='hljl-k'>begin</span><span class='hljl-t'>
+     </span><span class='hljl-k'>while</span><span class='hljl-t'> </span><span class='hljl-oB'>!</span><span class='hljl-nf'>isopen</span><span class='hljl-p'>(</span><span class='hljl-n'>S</span><span class='hljl-p'>)</span><span class='hljl-t'> </span><span class='hljl-cs'># wait for screen to be open</span><span class='hljl-t'>
+         </span><span class='hljl-nf'>sleep</span><span class='hljl-p'>(</span><span class='hljl-nfB'>0.01</span><span class='hljl-p'>)</span><span class='hljl-t'>
+     </span><span class='hljl-k'>end</span><span class='hljl-t'>
+     </span><span class='hljl-k'>while</span><span class='hljl-t'> </span><span class='hljl-nf'>isopen</span><span class='hljl-p'>(</span><span class='hljl-n'>S</span><span class='hljl-p'>)</span><span class='hljl-t'>
+         </span><span class='hljl-n'>p</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>p₀</span><span class='hljl-p'>((</span><span class='hljl-nfB'>10.0</span><span class='hljl-oB'>+</span><span class='hljl-n'>kx</span><span class='hljl-p'>[])</span><span class='hljl-oB'>/</span><span class='hljl-nfB'>10.</span><span class='hljl-p'>)</span><span class='hljl-t'>
+         </span><span class='hljl-n'>gateState</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>rand</span><span class='hljl-p'>(</span><span class='hljl-ni'>1</span><span class='hljl-p'>)[]</span><span class='hljl-t'> </span><span class='hljl-oB'>&lt;</span><span class='hljl-t'> </span><span class='hljl-n'>p</span><span class='hljl-t'>
+         </span><span class='hljl-n'>HC_handle</span><span class='hljl-p'>[</span><span class='hljl-sc'>:color</span><span class='hljl-p'>]</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-n'>gateState</span><span class='hljl-t'> </span><span class='hljl-oB'>?</span><span class='hljl-t'> </span><span class='hljl-sc'>:gold1</span><span class='hljl-t'> </span><span class='hljl-oB'>:</span><span class='hljl-t'> </span><span class='hljl-sc'>:dodgerblue1</span><span class='hljl-t'>
+         </span><span class='hljl-nf'>push!</span><span class='hljl-p'>(</span><span class='hljl-n'>D</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-oB'>-</span><span class='hljl-nfB'>3.</span><span class='hljl-t'> </span><span class='hljl-oB'>+</span><span class='hljl-t'> </span><span class='hljl-nf'>rand</span><span class='hljl-p'>(</span><span class='hljl-ni'>1</span><span class='hljl-p'>)[]</span><span class='hljl-oB'>/</span><span class='hljl-nfB'>5.</span><span class='hljl-p'>)</span><span class='hljl-t'>
+         </span><span class='hljl-nf'>sleep</span><span class='hljl-p'>(</span><span class='hljl-nfB'>0.001</span><span class='hljl-p'>)</span><span class='hljl-t'>
+     </span><span class='hljl-k'>end</span><span class='hljl-t'>
  </span><span class='hljl-k'>end</span><span class='hljl-t'>
-
  </span><span class='hljl-nf'>RecordEvents</span><span class='hljl-p'>(</span><span class='hljl-n'>S</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-s'>&quot;output&quot;</span><span class='hljl-p'>);</span><span class='hljl-t'>
-
 
 </span>
 </pre>
@@ -62,7 +62,7 @@
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
         <video controls autoplay loop muted>
-  <source src="http://juliaplots.org/MakieReferenceImages/gallery//animation_with_slider_control/media/video.mp4" type="video/mp4">
+  <source src="http://simondanisch.github.io/ReferenceImages/gallery//animation_with_slider_control/media/video.mp4" type="video/mp4">
   Your browser does not support mp4. Please use a modern browser like Chrome or Firefox.
 </video>
 

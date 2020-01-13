@@ -2,8 +2,7 @@
 
 ```@raw html
 <pre class='hljl'>
-<span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
- </span><span class='hljl-k'>import</span><span class='hljl-t'> </span><span class='hljl-n'>Base</span><span class='hljl-oB'>:</span><span class='hljl-t'> </span><span class='hljl-n'>getindex</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>setindex!</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>length</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>size</span><span class='hljl-t'>
+<span class='hljl-t'> </span><span class='hljl-k'>import</span><span class='hljl-t'> </span><span class='hljl-n'>Base</span><span class='hljl-oB'>:</span><span class='hljl-t'> </span><span class='hljl-n'>getindex</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>setindex!</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>length</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>size</span><span class='hljl-t'>
  </span><span class='hljl-k'>import</span><span class='hljl-t'> </span><span class='hljl-n'>Base</span><span class='hljl-oB'>.+</span><span class='hljl-t'>
  </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>GeometryTypes</span><span class='hljl-t'>
 
@@ -97,7 +96,7 @@
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery//parallel_prefix_sum/media/image.jpg" alt="">
+        <img src="http://simondanisch.github.io/ReferenceImages/gallery//parallel_prefix_sum/media/image.jpg" alt="">
 
     </p>
 </div>

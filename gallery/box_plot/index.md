@@ -2,8 +2,7 @@
 
 ```@raw html
 <pre class='hljl'>
-<span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
- </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>RDatasets</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>StatsMakie</span><span class='hljl-t'>
+<span class='hljl-t'> </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>RDatasets</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>StatsMakie</span><span class='hljl-t'>
 
 
  </span><span class='hljl-n'>d</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>dataset</span><span class='hljl-p'>(</span><span class='hljl-s'>&quot;Ecdat&quot;</span><span class='hljl-p'>,</span><span class='hljl-s'>&quot;Fatality&quot;</span><span class='hljl-p'>)</span><span class='hljl-t'>
@@ -18,7 +17,7 @@
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery//box_plot/media/image.jpg" alt="">
+        <img src="http://simondanisch.github.io/ReferenceImages/gallery//box_plot/media/image.jpg" alt="">
 
     </p>
 </div>

@@ -2,8 +2,7 @@
 
 ```@raw html
 <pre class='hljl'>
-<span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
-
+<span class='hljl-t'>
  </span><span class='hljl-k'>struct</span><span class='hljl-t'> </span><span class='hljl-nf'>FitzhughNagumo</span><span class='hljl-p'>{</span><span class='hljl-n'>T</span><span class='hljl-p'>}</span><span class='hljl-t'>
      </span><span class='hljl-n'>ϵ</span><span class='hljl-oB'>::</span><span class='hljl-n'>T</span><span class='hljl-t'>
      </span><span class='hljl-n'>s</span><span class='hljl-oB'>::</span><span class='hljl-n'>T</span><span class='hljl-t'>
@@ -27,7 +26,7 @@
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery//streamplot_1/media/image.jpg" alt="">
+        <img src="http://simondanisch.github.io/ReferenceImages/gallery//streamplot_1/media/image.jpg" alt="">
 
     </p>
 </div>

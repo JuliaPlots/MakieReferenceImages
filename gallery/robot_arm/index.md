@@ -2,8 +2,7 @@
 
 ```@raw html
 <pre class='hljl'>
-<span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
- </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>AbstractPlotting</span><span class='hljl-oB'>:</span><span class='hljl-t'> </span><span class='hljl-n'>Mesh</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>Scene</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>LineSegments</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>translate!</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>rotate!</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>vbox</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>hbox</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>qrotation</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>mesh!</span><span class='hljl-t'>
+<span class='hljl-t'> </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>AbstractPlotting</span><span class='hljl-oB'>:</span><span class='hljl-t'> </span><span class='hljl-n'>Mesh</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>Scene</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>LineSegments</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>translate!</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>rotate!</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>vbox</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>hbox</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>qrotation</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>mesh!</span><span class='hljl-t'>
  </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>GeometryTypes</span><span class='hljl-oB'>:</span><span class='hljl-t'> </span><span class='hljl-n'>HyperRectangle</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>Vec3f0</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>Point3f0</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>Sphere</span><span class='hljl-t'>
  </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>StaticArrays</span><span class='hljl-oB'>:</span><span class='hljl-t'> </span><span class='hljl-n'>SVector</span><span class='hljl-t'>
  </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>AbstractPlotting</span><span class='hljl-oB'>:</span><span class='hljl-t'> </span><span class='hljl-n'>textslider</span><span class='hljl-t'>
@@ -109,7 +108,7 @@
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
         <video controls autoplay loop muted>
-  <source src="http://juliaplots.org/MakieReferenceImages/gallery//robot_arm/media/video.mp4" type="video/mp4">
+  <source src="http://simondanisch.github.io/ReferenceImages/gallery//robot_arm/media/video.mp4" type="video/mp4">
   Your browser does not support mp4. Please use a modern browser like Chrome or Firefox.
 </video>
 

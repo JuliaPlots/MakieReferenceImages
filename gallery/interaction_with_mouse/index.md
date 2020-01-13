@@ -2,8 +2,7 @@
 
 ```@raw html
 <pre class='hljl'>
-<span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
- </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>LinearAlgebra</span><span class='hljl-t'>
+<span class='hljl-t'> </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>LinearAlgebra</span><span class='hljl-t'>
 
  </span><span class='hljl-n'>scene</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>Scene</span><span class='hljl-p'>(</span><span class='hljl-n'>raw</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-kc'>true</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>camera</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-n'>cam2d!</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>resolution</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-p'>(</span><span class='hljl-ni'>500</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-ni'>500</span><span class='hljl-p'>))</span><span class='hljl-t'>
  </span><span class='hljl-n'>r</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>LinRange</span><span class='hljl-p'>(</span><span class='hljl-ni'>0</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-ni'>3</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-ni'>4</span><span class='hljl-p'>)</span><span class='hljl-t'>
@@ -40,7 +39,6 @@
  </span><span class='hljl-n'>b2</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>button</span><span class='hljl-p'>(</span><span class='hljl-n'>t</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-s'>&quot;marker&quot;</span><span class='hljl-p'>)</span><span class='hljl-t'>
  </span><span class='hljl-n'>msize</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>slider</span><span class='hljl-p'>(</span><span class='hljl-n'>t</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-nfB'>0.1</span><span class='hljl-oB'>:</span><span class='hljl-nfB'>0.01</span><span class='hljl-oB'>:</span><span class='hljl-nfB'>0.5</span><span class='hljl-p'>)</span><span class='hljl-t'>
  </span><span class='hljl-nf'>on</span><span class='hljl-p'>(</span><span class='hljl-n'>b1</span><span class='hljl-p'>[</span><span class='hljl-k'>end</span><span class='hljl-p'>][</span><span class='hljl-sc'>:clicks</span><span class='hljl-p'>])</span><span class='hljl-t'> </span><span class='hljl-k'>do</span><span class='hljl-t'> </span><span class='hljl-n'>c</span><span class='hljl-t'>
-     </span><span class='hljl-nd'>@show</span><span class='hljl-t'> </span><span class='hljl-nf'>typeof</span><span class='hljl-p'>(</span><span class='hljl-n'>p1</span><span class='hljl-oB'>.</span><span class='hljl-n'>color</span><span class='hljl-p'>)</span><span class='hljl-t'>
      </span><span class='hljl-n'>p1</span><span class='hljl-oB'>.</span><span class='hljl-n'>color</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>rand</span><span class='hljl-p'>(</span><span class='hljl-n'>RGBAf0</span><span class='hljl-p'>)</span><span class='hljl-t'>
  </span><span class='hljl-k'>end</span><span class='hljl-t'>
  </span><span class='hljl-n'>markers</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-p'>(</span><span class='hljl-sc'>&#39;π&#39;</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-sc'>&#39;😹&#39;</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-sc'>&#39;⚃&#39;</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-sc'>&#39;◑&#39;</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-sc'>&#39;▼&#39;</span><span class='hljl-p'>)</span><span class='hljl-t'>
@@ -64,7 +62,7 @@
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
         <video controls autoplay loop muted>
-  <source src="http://juliaplots.org/MakieReferenceImages/gallery//interaction_with_mouse/media/video.mp4" type="video/mp4">
+  <source src="http://simondanisch.github.io/ReferenceImages/gallery//interaction_with_mouse/media/video.mp4" type="video/mp4">
   Your browser does not support mp4. Please use a modern browser like Chrome or Firefox.
 </video>
 

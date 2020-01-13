@@ -2,8 +2,7 @@
 
 ```@raw html
 <pre class='hljl'>
-<span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
- </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>FileIO</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>Colors</span><span class='hljl-t'>
+<span class='hljl-t'> </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>FileIO</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>Colors</span><span class='hljl-t'>
 
  </span><span class='hljl-n'>earth</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-k'>try</span><span class='hljl-t'>
      </span><span class='hljl-nf'>load</span><span class='hljl-p'>(</span><span class='hljl-nf'>download</span><span class='hljl-p'>(</span><span class='hljl-s'>&quot;https://svs.gsfc.nasa.gov/vis/a000000/a002900/a002915/bluemarble-2048.png&quot;</span><span class='hljl-p'>))</span><span class='hljl-t'>
@@ -22,7 +21,7 @@
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery//image_on_geometry__earth_/media/image.jpg" alt="">
+        <img src="http://simondanisch.github.io/ReferenceImages/gallery//image_on_geometry__earth_/media/image.jpg" alt="">
 
     </p>
 </div>

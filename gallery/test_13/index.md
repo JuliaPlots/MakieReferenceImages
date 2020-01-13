@@ -2,8 +2,7 @@
 
 ```@raw html
 <pre class='hljl'>
-<span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
-
+<span class='hljl-t'>
  </span><span class='hljl-n'>scene</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>Scene</span><span class='hljl-p'>()</span><span class='hljl-t'>
  </span><span class='hljl-nf'>cam2d!</span><span class='hljl-p'>(</span><span class='hljl-n'>scene</span><span class='hljl-p'>)</span><span class='hljl-t'>
  </span><span class='hljl-nf'>axis2d!</span><span class='hljl-p'>(</span><span class='hljl-t'>
@@ -24,7 +23,7 @@
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery//test_13/media/image.jpg" alt="">
+        <img src="http://simondanisch.github.io/ReferenceImages/gallery//test_13/media/image.jpg" alt="">
 
     </p>
 </div>

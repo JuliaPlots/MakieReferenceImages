@@ -2,8 +2,7 @@
 
 ```@raw html
 <pre class='hljl'>
-<span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
-
+<span class='hljl-t'>
  </span><span class='hljl-k'>function</span><span class='hljl-t'> </span><span class='hljl-nf'>makeheatmaps</span><span class='hljl-p'>(</span><span class='hljl-n'>bufs</span><span class='hljl-p'>)</span><span class='hljl-t'>
      </span><span class='hljl-n'>heatmaps</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>map</span><span class='hljl-p'>(</span><span class='hljl-n'>bufs</span><span class='hljl-p'>)</span><span class='hljl-t'> </span><span class='hljl-k'>do</span><span class='hljl-t'> </span><span class='hljl-n'>buf</span><span class='hljl-t'>
          </span><span class='hljl-nf'>heatmap</span><span class='hljl-p'>(</span><span class='hljl-t'>
@@ -36,7 +35,7 @@
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
         <video controls autoplay loop muted>
-  <source src="http://juliaplots.org/MakieReferenceImages/gallery//lots_of_heatmaps/media/lots_of_heatmaps.mp4" type="video/mp4">
+  <source src="http://simondanisch.github.io/ReferenceImages/gallery//lots_of_heatmaps/media/lots_of_heatmaps.mp4" type="video/mp4">
   Your browser does not support mp4. Please use a modern browser like Chrome or Firefox.
 </video>
 

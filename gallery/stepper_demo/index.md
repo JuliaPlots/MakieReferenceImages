@@ -2,8 +2,7 @@
 
 ```@raw html
 <pre class='hljl'>
-<span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
-
+<span class='hljl-t'>
  </span><span class='hljl-k'>function</span><span class='hljl-t'> </span><span class='hljl-nf'>stepper_demo</span><span class='hljl-p'>()</span><span class='hljl-t'>
      </span><span class='hljl-n'>scene</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>Scene</span><span class='hljl-p'>()</span><span class='hljl-t'>
      </span><span class='hljl-n'>pos</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-p'>(</span><span class='hljl-ni'>50</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-ni'>50</span><span class='hljl-p'>)</span><span class='hljl-t'>
@@ -39,21 +38,21 @@
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery//stepper_demo/media/stepper_demo-1.jpg" alt="">
+        <img src="http://simondanisch.github.io/ReferenceImages/gallery//stepper_demo/media/stepper_demo-1.jpg" alt="">
 
     </p>
 </div>
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery//stepper_demo/media/stepper_demo-2.jpg" alt="">
+        <img src="http://simondanisch.github.io/ReferenceImages/gallery//stepper_demo/media/stepper_demo-2.jpg" alt="">
 
     </p>
 </div>
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery//stepper_demo/media/stepper_demo-3.jpg" alt="">
+        <img src="http://simondanisch.github.io/ReferenceImages/gallery//stepper_demo/media/stepper_demo-3.jpg" alt="">
 
     </p>
 </div>

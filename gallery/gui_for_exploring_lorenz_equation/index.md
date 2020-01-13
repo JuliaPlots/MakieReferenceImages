@@ -2,8 +2,7 @@
 
 ```@raw html
 <pre class='hljl'>
-<span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
- </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Colors</span><span class='hljl-t'>
+<span class='hljl-t'> </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Colors</span><span class='hljl-t'>
  </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>AbstractPlotting</span><span class='hljl-oB'>:</span><span class='hljl-t'> </span><span class='hljl-n'>textslider</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>colorswatch</span><span class='hljl-t'>
 
  </span><span class='hljl-n'>s1</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>a</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>textslider</span><span class='hljl-p'>(</span><span class='hljl-nfB'>0f0</span><span class='hljl-oB'>:</span><span class='hljl-nfB'>50f0</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-s'>&quot;a&quot;</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>start</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-ni'>13</span><span class='hljl-p'>)</span><span class='hljl-t'>
@@ -59,7 +58,7 @@
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
         <video controls autoplay loop muted>
-  <source src="http://juliaplots.org/MakieReferenceImages/gallery//gui_for_exploring_lorenz_equation/media/video.mp4" type="video/mp4">
+  <source src="http://simondanisch.github.io/ReferenceImages/gallery//gui_for_exploring_lorenz_equation/media/video.mp4" type="video/mp4">
   Your browser does not support mp4. Please use a modern browser like Chrome or Firefox.
 </video>
 

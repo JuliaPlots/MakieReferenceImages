@@ -2,8 +2,7 @@
 
 ```@raw html
 <pre class='hljl'>
-<span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
-
+<span class='hljl-t'>
  </span><span class='hljl-k'>function</span><span class='hljl-t'> </span><span class='hljl-nf'>cartesian</span><span class='hljl-p'>(</span><span class='hljl-n'>ll</span><span class='hljl-p'>)</span><span class='hljl-t'>
      </span><span class='hljl-k'>return</span><span class='hljl-t'> </span><span class='hljl-nf'>Point3f0</span><span class='hljl-p'>(</span><span class='hljl-t'>
          </span><span class='hljl-nf'>cos</span><span class='hljl-p'>(</span><span class='hljl-n'>ll</span><span class='hljl-p'>[</span><span class='hljl-ni'>1</span><span class='hljl-p'>])</span><span class='hljl-t'> </span><span class='hljl-oB'>*</span><span class='hljl-t'> </span><span class='hljl-nf'>sin</span><span class='hljl-p'>(</span><span class='hljl-n'>ll</span><span class='hljl-p'>[</span><span class='hljl-ni'>2</span><span class='hljl-p'>]),</span><span class='hljl-t'>
@@ -64,7 +63,7 @@
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
         <video controls autoplay loop muted>
-  <source src="http://juliaplots.org/MakieReferenceImages/gallery//moire/media/moire.mp4" type="video/mp4">
+  <source src="http://simondanisch.github.io/ReferenceImages/gallery//moire/media/moire.mp4" type="video/mp4">
   Your browser does not support mp4. Please use a modern browser like Chrome or Firefox.
 </video>
 
