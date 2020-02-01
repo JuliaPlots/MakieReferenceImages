@@ -2,7 +2,8 @@
 
 ```@raw html
 <pre class='hljl'>
-<span class='hljl-t'> </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>StatsMakie</span><span class='hljl-t'>
+<span class='hljl-t'>
+ </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>StatsMakie</span><span class='hljl-t'>
  </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>DataFrames</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>RDatasets</span><span class='hljl-t'>
  </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>StatsMakie</span><span class='hljl-oB'>:</span><span class='hljl-t'> </span><span class='hljl-n'>linear</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>smooth</span><span class='hljl-t'>
 

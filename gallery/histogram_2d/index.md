@@ -2,7 +2,8 @@
 
 ```@raw html
 <pre class='hljl'>
-<span class='hljl-t'> </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>StatsMakie</span><span class='hljl-t'>
+<span class='hljl-t'>
+ </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>StatsMakie</span><span class='hljl-t'>
 
  </span><span class='hljl-nf'>plot</span><span class='hljl-p'>(</span><span class='hljl-nf'>histogram</span><span class='hljl-p'>(</span><span class='hljl-n'>nbins</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-ni'>20</span><span class='hljl-p'>),</span><span class='hljl-t'> </span><span class='hljl-nf'>randn</span><span class='hljl-p'>(</span><span class='hljl-ni'>10000</span><span class='hljl-p'>),</span><span class='hljl-t'> </span><span class='hljl-nf'>randn</span><span class='hljl-p'>(</span><span class='hljl-ni'>10000</span><span class='hljl-p'>))</span><span class='hljl-t'>
 

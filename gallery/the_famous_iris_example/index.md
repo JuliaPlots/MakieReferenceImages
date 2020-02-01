@@ -2,7 +2,8 @@
 
 ```@raw html
 <pre class='hljl'>
-<span class='hljl-t'> </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>DataFrames</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>RDatasets</span><span class='hljl-t'> </span><span class='hljl-cs'># do Pkg.add.([&quot;DataFrames&quot;, &quot;RDatasets&quot;]) if you don&#39;t have these packages installed</span><span class='hljl-t'>
+<span class='hljl-t'>
+ </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>DataFrames</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>RDatasets</span><span class='hljl-t'> </span><span class='hljl-cs'># do Pkg.add.([&quot;DataFrames&quot;, &quot;RDatasets&quot;]) if you don&#39;t have these packages installed</span><span class='hljl-t'>
 
  </span><span class='hljl-n'>iris</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>dataset</span><span class='hljl-p'>(</span><span class='hljl-s'>&quot;datasets&quot;</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-s'>&quot;iris&quot;</span><span class='hljl-p'>)</span><span class='hljl-t'>
 

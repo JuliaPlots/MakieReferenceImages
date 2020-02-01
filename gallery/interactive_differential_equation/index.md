@@ -2,7 +2,8 @@
 
 ```@raw html
 <pre class='hljl'>
-<span class='hljl-t'> </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>OrdinaryDiffEq</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>ParameterizedFunctions</span><span class='hljl-t'>
+<span class='hljl-t'>
+ </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>OrdinaryDiffEq</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>ParameterizedFunctions</span><span class='hljl-t'>
  </span><span class='hljl-k'>import</span><span class='hljl-t'> </span><span class='hljl-n'>AbstractPlotting</span><span class='hljl-oB'>:</span><span class='hljl-t'> </span><span class='hljl-n'>textslider</span><span class='hljl-t'>
 
  </span><span class='hljl-n'>lorenz</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nd'>@ode_def</span><span class='hljl-t'> </span><span class='hljl-n'>Lorenz</span><span class='hljl-t'> </span><span class='hljl-k'>begin</span><span class='hljl-t'>           </span><span class='hljl-cs'># define the system</span><span class='hljl-t'>

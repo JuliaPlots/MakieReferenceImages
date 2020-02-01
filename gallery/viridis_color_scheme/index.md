@@ -3,6 +3,7 @@
 ```@raw html
 <pre class='hljl'>
 <span class='hljl-t'>
+
  </span><span class='hljl-n'>c</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>to_colormap</span><span class='hljl-p'>(</span><span class='hljl-sc'>:viridis</span><span class='hljl-p'>)</span><span class='hljl-t'> </span><span class='hljl-cs'># get colors of colormap</span><span class='hljl-t'>
 
  </span><span class='hljl-nf'>image</span><span class='hljl-p'>(</span><span class='hljl-t'>         </span><span class='hljl-cs'># to plot colors, an image is best</span><span class='hljl-t'>

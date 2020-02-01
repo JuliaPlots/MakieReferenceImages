@@ -3,6 +3,7 @@
 ```@raw html
 <pre class='hljl'>
 <span class='hljl-t'>
+
  </span><span class='hljl-n'>f0</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-ni'>1</span><span class='hljl-oB'>/</span><span class='hljl-ni'>2</span><span class='hljl-p'>;</span><span class='hljl-t'> </span><span class='hljl-n'>fs</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-ni'>100</span><span class='hljl-p'>;</span><span class='hljl-t'>
  </span><span class='hljl-n'>winsec</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-ni'>4</span><span class='hljl-p'>;</span><span class='hljl-t'> </span><span class='hljl-n'>hopsec</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-ni'>1</span><span class='hljl-oB'>/</span><span class='hljl-ni'>60</span><span class='hljl-t'>
  </span><span class='hljl-n'>nwin</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>round</span><span class='hljl-p'>(</span><span class='hljl-n'>Integer</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>winsec</span><span class='hljl-oB'>*</span><span class='hljl-n'>fs</span><span class='hljl-p'>)</span><span class='hljl-t'>
@@ -26,6 +27,7 @@
      </span><span class='hljl-nf'>sleep</span><span class='hljl-p'>(</span><span class='hljl-n'>hopsec</span><span class='hljl-p'>)</span><span class='hljl-t'>
      </span><span class='hljl-n'>frame_start</span><span class='hljl-t'> </span><span class='hljl-oB'>+=</span><span class='hljl-t'> </span><span class='hljl-n'>hopsec</span><span class='hljl-t'>
 </span><span class='hljl-k'>end</span><span class='hljl-t'>
+
 
 </span>
 </pre>
