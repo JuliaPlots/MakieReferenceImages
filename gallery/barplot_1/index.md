@@ -3,6 +3,7 @@
 ```@raw html
 <pre class='hljl'>
 <span class='hljl-t'>
+
  </span><span class='hljl-nf'>barplot</span><span class='hljl-p'>(</span><span class='hljl-nf'>randn</span><span class='hljl-p'>(</span><span class='hljl-ni'>99</span><span class='hljl-p'>))</span><span class='hljl-t'>
 
 </span>
@@ -10,6 +11,13 @@
 
 ```
 ```@raw html
+
+<div style="display:inline-block">
+    <p style="display:inline-block; text-align: center">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery/barplot_1/media/image.jpeg" alt="">
+
+    </p>
+</div>
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">

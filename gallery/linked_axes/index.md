@@ -1,0 +1,42 @@
+## Linked axes
+
+```@raw html
+<pre class='hljl'>
+<span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>MakieLayout</span><span class='hljl-t'>
+
+ </span><span class='hljl-n'>scene</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>layout</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>layoutscene</span><span class='hljl-p'>()</span><span class='hljl-t'>
+
+ </span><span class='hljl-n'>layout</span><span class='hljl-p'>[</span><span class='hljl-ni'>1</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-ni'>1</span><span class='hljl-oB'>:</span><span class='hljl-ni'>3</span><span class='hljl-p'>]</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-n'>axs</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-p'>[</span><span class='hljl-nf'>LAxis</span><span class='hljl-p'>(</span><span class='hljl-n'>scene</span><span class='hljl-p'>)</span><span class='hljl-t'> </span><span class='hljl-k'>for</span><span class='hljl-t'> </span><span class='hljl-n'>i</span><span class='hljl-t'> </span><span class='hljl-kp'>in</span><span class='hljl-t'> </span><span class='hljl-ni'>1</span><span class='hljl-oB'>:</span><span class='hljl-ni'>3</span><span class='hljl-p'>]</span><span class='hljl-t'>
+ </span><span class='hljl-nf'>linkxaxes!</span><span class='hljl-p'>(</span><span class='hljl-n'>axs</span><span class='hljl-p'>[</span><span class='hljl-ni'>1</span><span class='hljl-oB'>:</span><span class='hljl-ni'>2</span><span class='hljl-p'>]</span><span class='hljl-oB'>...</span><span class='hljl-p'>)</span><span class='hljl-t'>
+ </span><span class='hljl-nf'>linkyaxes!</span><span class='hljl-p'>(</span><span class='hljl-n'>axs</span><span class='hljl-p'>[</span><span class='hljl-ni'>2</span><span class='hljl-oB'>:</span><span class='hljl-ni'>3</span><span class='hljl-p'>]</span><span class='hljl-oB'>...</span><span class='hljl-p'>)</span><span class='hljl-t'>
+
+ </span><span class='hljl-n'>axs</span><span class='hljl-p'>[</span><span class='hljl-ni'>1</span><span class='hljl-p'>]</span><span class='hljl-oB'>.</span><span class='hljl-n'>title</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-s'>&quot;x linked&quot;</span><span class='hljl-t'>
+ </span><span class='hljl-n'>axs</span><span class='hljl-p'>[</span><span class='hljl-ni'>2</span><span class='hljl-p'>]</span><span class='hljl-oB'>.</span><span class='hljl-n'>title</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-s'>&quot;x &amp; y linked&quot;</span><span class='hljl-t'>
+ </span><span class='hljl-n'>axs</span><span class='hljl-p'>[</span><span class='hljl-ni'>3</span><span class='hljl-p'>]</span><span class='hljl-oB'>.</span><span class='hljl-n'>title</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-s'>&quot;y linked&quot;</span><span class='hljl-t'>
+
+ </span><span class='hljl-k'>for</span><span class='hljl-t'> </span><span class='hljl-n'>i</span><span class='hljl-t'> </span><span class='hljl-kp'>in</span><span class='hljl-t'> </span><span class='hljl-ni'>1</span><span class='hljl-oB'>:</span><span class='hljl-ni'>3</span><span class='hljl-t'>
+     </span><span class='hljl-nf'>lines!</span><span class='hljl-p'>(</span><span class='hljl-n'>axs</span><span class='hljl-p'>[</span><span class='hljl-n'>i</span><span class='hljl-p'>],</span><span class='hljl-t'> </span><span class='hljl-ni'>1</span><span class='hljl-oB'>:</span><span class='hljl-ni'>10</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-ni'>1</span><span class='hljl-oB'>:</span><span class='hljl-ni'>10</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>color</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-s'>&quot;green&quot;</span><span class='hljl-p'>)</span><span class='hljl-t'>
+     </span><span class='hljl-k'>if</span><span class='hljl-t'> </span><span class='hljl-n'>i</span><span class='hljl-t'> </span><span class='hljl-oB'>!=</span><span class='hljl-t'> </span><span class='hljl-ni'>1</span><span class='hljl-t'>
+         </span><span class='hljl-nf'>lines!</span><span class='hljl-p'>(</span><span class='hljl-n'>axs</span><span class='hljl-p'>[</span><span class='hljl-n'>i</span><span class='hljl-p'>],</span><span class='hljl-t'> </span><span class='hljl-ni'>1</span><span class='hljl-oB'>:</span><span class='hljl-ni'>10</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-ni'>11</span><span class='hljl-oB'>:</span><span class='hljl-ni'>20</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>color</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-s'>&quot;blue&quot;</span><span class='hljl-p'>)</span><span class='hljl-t'>
+     </span><span class='hljl-k'>end</span><span class='hljl-t'>
+     </span><span class='hljl-k'>if</span><span class='hljl-t'> </span><span class='hljl-n'>i</span><span class='hljl-t'> </span><span class='hljl-oB'>!=</span><span class='hljl-t'> </span><span class='hljl-ni'>3</span><span class='hljl-t'>
+         </span><span class='hljl-nf'>lines!</span><span class='hljl-p'>(</span><span class='hljl-n'>axs</span><span class='hljl-p'>[</span><span class='hljl-n'>i</span><span class='hljl-p'>],</span><span class='hljl-t'> </span><span class='hljl-ni'>11</span><span class='hljl-oB'>:</span><span class='hljl-ni'>20</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-ni'>1</span><span class='hljl-oB'>:</span><span class='hljl-ni'>10</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>color</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-s'>&quot;red&quot;</span><span class='hljl-p'>)</span><span class='hljl-t'>
+     </span><span class='hljl-k'>end</span><span class='hljl-t'>
+ </span><span class='hljl-k'>end</span><span class='hljl-t'>
+
+ </span><span class='hljl-n'>scene</span><span class='hljl-t'>
+
+</span>
+</pre>
+
+```
+```@raw html
+
+<div style="display:inline-block">
+    <p style="display:inline-block; text-align: center">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery/linked_axes/media/image.jpeg" alt="">
+
+    </p>
+</div>
+
+```

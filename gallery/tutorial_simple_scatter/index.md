@@ -3,6 +3,7 @@
 ```@raw html
 <pre class='hljl'>
 <span class='hljl-t'>
+
  </span><span class='hljl-n'>x</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>rand</span><span class='hljl-p'>(</span><span class='hljl-ni'>10</span><span class='hljl-p'>)</span><span class='hljl-t'>
  </span><span class='hljl-n'>y</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>rand</span><span class='hljl-p'>(</span><span class='hljl-ni'>10</span><span class='hljl-p'>)</span><span class='hljl-t'>
  </span><span class='hljl-n'>colors</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>rand</span><span class='hljl-p'>(</span><span class='hljl-ni'>10</span><span class='hljl-p'>)</span><span class='hljl-t'>
@@ -13,6 +14,13 @@
 
 ```
 ```@raw html
+
+<div style="display:inline-block">
+    <p style="display:inline-block; text-align: center">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery/tutorial_simple_scatter/media/image.jpeg" alt="">
+
+    </p>
+</div>
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">

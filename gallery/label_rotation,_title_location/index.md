@@ -3,6 +3,7 @@
 ```@raw html
 <pre class='hljl'>
 <span class='hljl-t'>
+
  </span><span class='hljl-n'>scene</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>Scene</span><span class='hljl-p'>()</span><span class='hljl-t'>
  </span><span class='hljl-n'>line</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>lines!</span><span class='hljl-p'>(</span><span class='hljl-n'>scene</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-nf'>rand</span><span class='hljl-p'>(</span><span class='hljl-ni'>10</span><span class='hljl-p'>),</span><span class='hljl-t'> </span><span class='hljl-n'>linewidth</span><span class='hljl-oB'>=</span><span class='hljl-nfB'>3.0</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>color</span><span class='hljl-oB'>=:</span><span class='hljl-n'>red</span><span class='hljl-p'>)</span><span class='hljl-t'>
  </span><span class='hljl-n'>scene</span><span class='hljl-p'>[</span><span class='hljl-n'>Axis</span><span class='hljl-p'>][</span><span class='hljl-sc'>:names</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-sc'>:axisnames</span><span class='hljl-p'>]</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-p'>(</span><span class='hljl-s'>&quot;text&quot;</span><span class='hljl-p'>,</span><span class='hljl-s'>&quot;&quot;</span><span class='hljl-p'>)</span><span class='hljl-t'>
@@ -15,6 +16,13 @@
 
 ```
 ```@raw html
+
+<div style="display:inline-block">
+    <p style="display:inline-block; text-align: center">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery/label_rotation,_title_location/media/image.jpeg" alt="">
+
+    </p>
+</div>
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
