@@ -22,6 +22,13 @@
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery/standard_deviation_band/media/image.jpeg" alt="">
+
+    </p>
+</div>
+
+<div style="display:inline-block">
+    <p style="display:inline-block; text-align: center">
         <img src="http://juliaplots.org/MakieReferenceImages/gallery/standard_deviation_band/media/image.jpg" alt="">
 
     </p>

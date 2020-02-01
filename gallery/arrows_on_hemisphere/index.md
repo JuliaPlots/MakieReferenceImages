@@ -34,6 +34,13 @@
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery/arrows_on_hemisphere/media/image.jpeg" alt="">
+
+    </p>
+</div>
+
+<div style="display:inline-block">
+    <p style="display:inline-block; text-align: center">
         <img src="http://juliaplots.org/MakieReferenceImages/gallery/arrows_on_hemisphere/media/image.jpg" alt="">
 
     </p>

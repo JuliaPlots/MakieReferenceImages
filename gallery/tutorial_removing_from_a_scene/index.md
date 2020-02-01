@@ -14,7 +14,7 @@
  </span><span class='hljl-nf'>lines!</span><span class='hljl-p'>(</span><span class='hljl-n'>scene</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>x</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>y2</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>color</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-sc'>:black</span><span class='hljl-p'>)</span><span class='hljl-t'>
  </span><span class='hljl-nf'>scatter!</span><span class='hljl-p'>(</span><span class='hljl-n'>scene</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>x</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>y2</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>color</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-sc'>:green</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>marker</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-sc'>:utriangle</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>markersize</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nfB'>0.1</span><span class='hljl-p'>)</span><span class='hljl-t'>
  </span><span class='hljl-cs'># initialize the stepper and give it an output destination</span><span class='hljl-t'>
- </span><span class='hljl-n'>st</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>Stepper</span><span class='hljl-p'>(</span><span class='hljl-n'>scene</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-s'>&quot;/Users/anshul/tmp/out&quot;</span><span class='hljl-p'>)</span><span class='hljl-t'>
+ </span><span class='hljl-n'>st</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>Stepper</span><span class='hljl-p'>(</span><span class='hljl-n'>scene</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-s'>&quot;output&quot;</span><span class='hljl-p'>)</span><span class='hljl-t'>
  </span><span class='hljl-nf'>step!</span><span class='hljl-p'>(</span><span class='hljl-n'>st</span><span class='hljl-p'>)</span><span class='hljl-t'>
 
  </span><span class='hljl-nf'>pop!</span><span class='hljl-p'>(</span><span class='hljl-n'>scene</span><span class='hljl-oB'>.</span><span class='hljl-n'>plots</span><span class='hljl-p'>)</span><span class='hljl-t'>
@@ -33,42 +33,42 @@
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery/tutorial_removing_from_a_scene/media/out-1.jpg" alt="">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery/tutorial_removing_from_a_scene/media/out-1.jpeg" alt="">
 
     </p>
 </div>
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery/tutorial_removing_from_a_scene/media/out-2.jpg" alt="">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery/tutorial_removing_from_a_scene/media/out-2.jpeg" alt="">
 
     </p>
 </div>
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery/tutorial_removing_from_a_scene/media/out-3.jpg" alt="">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery/tutorial_removing_from_a_scene/media/out-3.jpeg" alt="">
 
     </p>
 </div>
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery/tutorial_removing_from_a_scene/media/tutorial_removing_from_a_scene-1.jpg" alt="">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery/tutorial_removing_from_a_scene/media/tutorial_removing_from_a_scene-1.jpeg" alt="">
 
     </p>
 </div>
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery/tutorial_removing_from_a_scene/media/tutorial_removing_from_a_scene-2.jpg" alt="">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery/tutorial_removing_from_a_scene/media/tutorial_removing_from_a_scene-2.jpeg" alt="">
 
     </p>
 </div>
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery/tutorial_removing_from_a_scene/media/tutorial_removing_from_a_scene-3.jpg" alt="">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery/tutorial_removing_from_a_scene/media/tutorial_removing_from_a_scene-3.jpeg" alt="">
 
     </p>
 </div>

@@ -2,7 +2,8 @@
 
 ```@raw html
 <pre class='hljl'>
-<span class='hljl-t'> </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>GeoMakie</span><span class='hljl-t'>
+<span class='hljl-t'>
+ </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>GeoMakie</span><span class='hljl-t'>
  </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>GeoMakie</span><span class='hljl-oB'>:</span><span class='hljl-t'> </span><span class='hljl-n'>ImageMagick</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>Glob</span><span class='hljl-t'>
 
 
@@ -40,6 +41,7 @@
      </span><span class='hljl-n'>surfplot</span><span class='hljl-oB'>.</span><span class='hljl-n'>color</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-n'>ImageMagick</span><span class='hljl-oB'>.</span><span class='hljl-nf'>load</span><span class='hljl-p'>(</span><span class='hljl-n'>img</span><span class='hljl-p'>)</span><span class='hljl-t'>
      </span><span class='hljl-n'>titletext</span><span class='hljl-p'>[]</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-s'>&quot;</span><span class='hljl-si'>$month</span><span class='hljl-s'>/</span><span class='hljl-si'>$year</span><span class='hljl-s'>&quot;</span><span class='hljl-t'>
 </span><span class='hljl-k'>end</span><span class='hljl-t'>
+
 
 </span>
 </pre>

@@ -24,6 +24,13 @@
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery/image_on_geometry__moon_/media/image.jpeg" alt="">
+
+    </p>
+</div>
+
+<div style="display:inline-block">
+    <p style="display:inline-block; text-align: center">
         <img src="http://juliaplots.org/MakieReferenceImages/gallery/image_on_geometry__moon_/media/image.jpg" alt="">
 
     </p>

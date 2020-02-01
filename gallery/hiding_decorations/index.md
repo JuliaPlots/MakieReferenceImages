@@ -47,10 +47,10 @@
          </span><span class='hljl-nf'>recordframe!</span><span class='hljl-p'>(</span><span class='hljl-n'>io</span><span class='hljl-p'>)</span><span class='hljl-t'>
      </span><span class='hljl-k'>end</span><span class='hljl-t'>
      </span><span class='hljl-k'>for</span><span class='hljl-t'> </span><span class='hljl-n'>ax</span><span class='hljl-t'> </span><span class='hljl-kp'>in</span><span class='hljl-t'> </span><span class='hljl-n'>axes</span><span class='hljl-t'>
-         </span><span class='hljl-n'>ax</span><span class='hljl-oB'>.</span><span class='hljl-n'>xspinevisible</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-kc'>false</span><span class='hljl-t'>
-         </span><span class='hljl-n'>ax</span><span class='hljl-oB'>.</span><span class='hljl-n'>yspinevisible</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-kc'>false</span><span class='hljl-t'>
-         </span><span class='hljl-n'>ax</span><span class='hljl-oB'>.</span><span class='hljl-n'>xoppositespinevisible</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-kc'>false</span><span class='hljl-t'>
-         </span><span class='hljl-n'>ax</span><span class='hljl-oB'>.</span><span class='hljl-n'>yoppositespinevisible</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-kc'>false</span><span class='hljl-t'>
+         </span><span class='hljl-n'>ax</span><span class='hljl-oB'>.</span><span class='hljl-n'>bottomspinevisible</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-kc'>false</span><span class='hljl-t'>
+         </span><span class='hljl-n'>ax</span><span class='hljl-oB'>.</span><span class='hljl-n'>leftspinevisible</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-kc'>false</span><span class='hljl-t'>
+         </span><span class='hljl-n'>ax</span><span class='hljl-oB'>.</span><span class='hljl-n'>topspinevisible</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-kc'>false</span><span class='hljl-t'>
+         </span><span class='hljl-n'>ax</span><span class='hljl-oB'>.</span><span class='hljl-n'>rightspinevisible</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-kc'>false</span><span class='hljl-t'>
          </span><span class='hljl-nf'>recordframe!</span><span class='hljl-p'>(</span><span class='hljl-n'>io</span><span class='hljl-p'>)</span><span class='hljl-t'>
      </span><span class='hljl-k'>end</span><span class='hljl-t'>
  </span><span class='hljl-k'>end</span><span class='hljl-t'>
