@@ -17,13 +17,6 @@
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery/multiple_functions/media/image.jpeg" alt="">
-
-    </p>
-</div>
-
-<div style="display:inline-block">
-    <p style="display:inline-block; text-align: center">
         <img src="http://juliaplots.org/MakieReferenceImages/gallery/multiple_functions/media/image.jpg" alt="">
 
     </p>

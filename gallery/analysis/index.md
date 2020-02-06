@@ -64,35 +64,35 @@
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery/analysis/media/image2.jpeg" alt="">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery/analysis/media/image2.jpg" alt="">
 
     </p>
 </div>
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery/analysis/media/image3.jpeg" alt="">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery/analysis/media/image3.jpg" alt="">
 
     </p>
 </div>
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery/analysis/media/image4.jpeg" alt="">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery/analysis/media/image4.jpg" alt="">
 
     </p>
 </div>
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery/analysis/media/image5.jpeg" alt="">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery/analysis/media/image5.jpg" alt="">
 
     </p>
 </div>
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery/analysis/media/image6.jpeg" alt="">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery/analysis/media/image6.jpg" alt="">
 
     </p>
 </div>

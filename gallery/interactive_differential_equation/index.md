@@ -43,7 +43,8 @@
                  </span><span class='hljl-n'>prob</span><span class='hljl-p'>;</span><span class='hljl-t'>
                  </span><span class='hljl-n'>p</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-p'>[</span><span class='hljl-n'>σ</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>ρ</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>β</span><span class='hljl-p'>],</span><span class='hljl-t'>
                  </span><span class='hljl-n'>tspan</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-p'>(</span><span class='hljl-n'>ts</span><span class='hljl-p'>[</span><span class='hljl-ni'>1</span><span class='hljl-p'>],</span><span class='hljl-t'> </span><span class='hljl-n'>ts</span><span class='hljl-p'>[</span><span class='hljl-k'>end</span><span class='hljl-p'>])</span><span class='hljl-t'>
-             </span><span class='hljl-p'>)</span><span class='hljl-t'>
+             </span><span class='hljl-p'>),</span><span class='hljl-t'>
+             </span><span class='hljl-nf'>Tsit5</span><span class='hljl-p'>(),</span><span class='hljl-t'>
          </span><span class='hljl-p'>)(</span><span class='hljl-n'>ts</span><span class='hljl-p'>)</span><span class='hljl-oB'>.</span><span class='hljl-n'>u</span><span class='hljl-t'>
      </span><span class='hljl-p'>)</span><span class='hljl-t'>  </span><span class='hljl-cs'># change to fit the dimensionality - maybe even return 2 arrays, or a set of `Point2`s...</span><span class='hljl-t'>
  </span><span class='hljl-k'>end</span><span class='hljl-t'>

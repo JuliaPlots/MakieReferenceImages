@@ -20,14 +20,14 @@
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery/build_plot_in_pieces/media/build_plot_in_pieces-1.jpeg" alt="">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery/build_plot_in_pieces/media/build_plot_in_pieces-1.jpg" alt="">
 
     </p>
 </div>
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery/build_plot_in_pieces/media/build_plot_in_pieces-2.jpeg" alt="">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery/build_plot_in_pieces/media/build_plot_in_pieces-2.jpg" alt="">
 
     </p>
 </div>
