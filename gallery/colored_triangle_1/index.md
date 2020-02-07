@@ -4,6 +4,7 @@
 <pre class='hljl'>
 <span class='hljl-t'>
 
+</span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
  </span><span class='hljl-nf'>poly</span><span class='hljl-p'>(</span><span class='hljl-t'>
      </span><span class='hljl-p'>[(</span><span class='hljl-nfB'>0.0</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-nfB'>0.0</span><span class='hljl-p'>),</span><span class='hljl-t'> </span><span class='hljl-p'>(</span><span class='hljl-nfB'>0.5</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-nfB'>1.0</span><span class='hljl-p'>),</span><span class='hljl-t'> </span><span class='hljl-p'>(</span><span class='hljl-nfB'>1.0</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-nfB'>0.0</span><span class='hljl-p'>)],</span><span class='hljl-t'>
      </span><span class='hljl-n'>color</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-p'>[</span><span class='hljl-sc'>:red</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-sc'>:green</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-sc'>:blue</span><span class='hljl-p'>],</span><span class='hljl-t'>

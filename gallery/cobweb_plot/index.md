@@ -4,6 +4,7 @@
 <pre class='hljl'>
 <span class='hljl-t'>
 
+</span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
  </span><span class='hljl-nf'>f</span><span class='hljl-p'>(</span><span class='hljl-n'>x</span><span class='hljl-oB'>::</span><span class='hljl-n'>Real</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>r</span><span class='hljl-oB'>::</span><span class='hljl-n'>Real</span><span class='hljl-p'>)</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-n'>r</span><span class='hljl-t'> </span><span class='hljl-oB'>*</span><span class='hljl-t'> </span><span class='hljl-n'>x</span><span class='hljl-t'> </span><span class='hljl-oB'>*</span><span class='hljl-t'> </span><span class='hljl-p'>(</span><span class='hljl-ni'>1</span><span class='hljl-t'> </span><span class='hljl-oB'>-</span><span class='hljl-t'> </span><span class='hljl-n'>x</span><span class='hljl-p'>)</span><span class='hljl-t'>
  </span><span class='hljl-k'>function</span><span class='hljl-t'> </span><span class='hljl-nf'>cobweb</span><span class='hljl-p'>(</span><span class='hljl-t'>
          </span><span class='hljl-n'>xᵢ</span><span class='hljl-oB'>::</span><span class='hljl-n'>Real</span><span class='hljl-p'>,</span><span class='hljl-t'>

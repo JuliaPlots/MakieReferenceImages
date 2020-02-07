@@ -5,6 +5,7 @@
 <span class='hljl-t'>
  </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Colors</span><span class='hljl-t'>
 
+</span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
  </span><span class='hljl-s'>&quot;&quot;&quot;
  This example is courtesy of @neuralian through the Julia Discourse.
  https://discourse.julialang.org/t/makie-interaction-slider-with-animation/25179/10

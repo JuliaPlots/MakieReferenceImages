@@ -7,6 +7,7 @@
  </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>GeometryTypes</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>FileIO</span><span class='hljl-t'>
  </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>LinearAlgebra</span><span class='hljl-t'>
 
+</span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
 
  </span><span class='hljl-s'>&quot;&quot;&quot;
      example by @pbouffard from JuliaPlots/Makie.jl#307

@@ -15,6 +15,7 @@
  </span><span class='hljl-k'>import</span><span class='hljl-t'> </span><span class='hljl-n'>Base</span><span class='hljl-oB'>.+</span><span class='hljl-t'>
  </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>GeometryTypes</span><span class='hljl-t'>
 
+</span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
  </span><span class='hljl-k'>function</span><span class='hljl-t'> </span><span class='hljl-nf'>prefix_sum</span><span class='hljl-p'>(</span><span class='hljl-n'>y</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>func</span><span class='hljl-p'>)</span><span class='hljl-t'>
      </span><span class='hljl-n'>l</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>length</span><span class='hljl-p'>(</span><span class='hljl-n'>y</span><span class='hljl-p'>)</span><span class='hljl-t'>
      </span><span class='hljl-n'>k</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>ceil</span><span class='hljl-p'>(</span><span class='hljl-n'>Int</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-nf'>log2</span><span class='hljl-p'>(</span><span class='hljl-n'>l</span><span class='hljl-p'>))</span><span class='hljl-t'>

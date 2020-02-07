@@ -4,6 +4,7 @@
 <pre class='hljl'>
 <span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>MakieLayout</span><span class='hljl-t'>
 
+</span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
  </span><span class='hljl-n'>scene</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>Scene</span><span class='hljl-p'>(</span><span class='hljl-n'>resolution</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-p'>(</span><span class='hljl-ni'>1200</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-ni'>900</span><span class='hljl-p'>),</span><span class='hljl-t'> </span><span class='hljl-n'>camera</span><span class='hljl-oB'>=</span><span class='hljl-n'>campixel!</span><span class='hljl-p'>)</span><span class='hljl-t'>
 
  </span><span class='hljl-n'>layout</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>GridLayout</span><span class='hljl-p'>(</span><span class='hljl-t'>
