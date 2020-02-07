@@ -5,8 +5,9 @@
 <span class='hljl-t'>
 
 </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
- </span><span class='hljl-n'>data</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>sort</span><span class='hljl-p'>(</span><span class='hljl-nf'>randn</span><span class='hljl-p'>(</span><span class='hljl-ni'>100</span><span class='hljl-p'>))</span><span class='hljl-t'>
- </span><span class='hljl-nf'>barplot</span><span class='hljl-p'>(</span><span class='hljl-n'>data</span><span class='hljl-p'>)</span><span class='hljl-t'>
+
+</span><span class='hljl-n'>data</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>sort</span><span class='hljl-p'>(</span><span class='hljl-nf'>randn</span><span class='hljl-p'>(</span><span class='hljl-ni'>100</span><span class='hljl-p'>))</span><span class='hljl-t'>
+</span><span class='hljl-nf'>barplot</span><span class='hljl-p'>(</span><span class='hljl-n'>data</span><span class='hljl-p'>)</span><span class='hljl-t'>
 
 </span>
 </pre>

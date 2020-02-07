@@ -5,7 +5,8 @@
 <span class='hljl-t'>
 
 </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
- </span><span class='hljl-nf'>wireframe</span><span class='hljl-p'>(</span><span class='hljl-n'>MakieGallery</span><span class='hljl-oB'>.</span><span class='hljl-nf'>loadasset</span><span class='hljl-p'>(</span><span class='hljl-s'>&quot;cat.obj&quot;</span><span class='hljl-p'>))</span><span class='hljl-t'>
+
+</span><span class='hljl-nf'>wireframe</span><span class='hljl-p'>(</span><span class='hljl-n'>MakieGallery</span><span class='hljl-oB'>.</span><span class='hljl-nf'>loadasset</span><span class='hljl-p'>(</span><span class='hljl-s'>&quot;cat.obj&quot;</span><span class='hljl-p'>))</span><span class='hljl-t'>
 
 </span>
 </pre>
