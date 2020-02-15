@@ -2,7 +2,7 @@
 
 ```@raw html
 <pre class='hljl'>
-<span class='hljl-t'>
+<span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>GeoMakie</span><span class='hljl-t'>
 </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>GeoMakie</span><span class='hljl-t'>
 </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>GeoMakie</span><span class='hljl-oB'>:</span><span class='hljl-t'> </span><span class='hljl-n'>ImageMagick</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>Glob</span><span class='hljl-t'>
 
