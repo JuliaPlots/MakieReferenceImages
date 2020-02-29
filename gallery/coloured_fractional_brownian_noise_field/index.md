@@ -5,7 +5,7 @@
 <span class='hljl-t'>
 </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>FFTW</span><span class='hljl-t'>
 
-</span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
+</span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>AbstractPlotting</span><span class='hljl-t'>
 
 </span><span class='hljl-s'>&quot;This example was contributed by Harmen Stoppels (@haampie)&quot;</span><span class='hljl-t'>
 

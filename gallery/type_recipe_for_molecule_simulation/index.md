@@ -5,7 +5,7 @@
 <span class='hljl-t'>
 </span><span class='hljl-k'>import</span><span class='hljl-t'> </span><span class='hljl-n'>AbstractPlotting</span><span class='hljl-oB'>:</span><span class='hljl-t'> </span><span class='hljl-n'>Plot</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>default_theme</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>plot!</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>to_value</span><span class='hljl-t'>
 
-</span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
+</span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>AbstractPlotting</span><span class='hljl-t'>
 
 
 </span><span class='hljl-k'>struct</span><span class='hljl-t'> </span><span class='hljl-n'>Simulation</span><span class='hljl-t'>

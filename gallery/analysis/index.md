@@ -8,7 +8,7 @@
 </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>StatsMakie</span><span class='hljl-oB'>:</span><span class='hljl-t'> </span><span class='hljl-n'>smooth</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>linear</span><span class='hljl-t'>
 </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Distributions</span><span class='hljl-t'>
 
-</span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>Makie</span><span class='hljl-t'>
+</span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>AbstractPlotting</span><span class='hljl-t'>
 
 
 </span><span class='hljl-n'>mtcars</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>dataset</span><span class='hljl-p'>(</span><span class='hljl-s'>&quot;datasets&quot;</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-s'>&quot;mtcars&quot;</span><span class='hljl-p'>)</span><span class='hljl-t'>    </span><span class='hljl-cs'># load dataset of car statistics</span><span class='hljl-t'>
