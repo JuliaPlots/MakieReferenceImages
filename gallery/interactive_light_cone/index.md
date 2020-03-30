@@ -30,6 +30,8 @@
 
 </span><span class='hljl-nf'>linesegments!</span><span class='hljl-p'>(</span><span class='hljl-n'>scene</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>coords</span><span class='hljl-p'>;</span><span class='hljl-t'> </span><span class='hljl-n'>visible</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-n'>visible</span><span class='hljl-p'>)</span><span class='hljl-t'>
 
+</span><span class='hljl-cs'># Do not execute beyond this point!</span><span class='hljl-t'>
+
 </span><span class='hljl-nf'>RecordEvents</span><span class='hljl-p'>(</span><span class='hljl-n'>scene</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-s'>&quot;output&quot;</span><span class='hljl-p'>)</span><span class='hljl-t'>
 
 

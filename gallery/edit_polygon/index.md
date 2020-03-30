@@ -54,7 +54,6 @@
 </span><span class='hljl-nf'>add_move!</span><span class='hljl-p'>(</span><span class='hljl-n'>scene</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>points</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>pplot</span><span class='hljl-p'>)</span><span class='hljl-t'>
 </span><span class='hljl-nf'>add_remove_add!</span><span class='hljl-p'>(</span><span class='hljl-n'>scene</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>points</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>pplot</span><span class='hljl-p'>)</span><span class='hljl-t'>
 </span><span class='hljl-nf'>center!</span><span class='hljl-p'>(</span><span class='hljl-n'>scene</span><span class='hljl-p'>)</span><span class='hljl-t'>
-</span><span class='hljl-nf'>RecordEvents</span><span class='hljl-p'>(</span><span class='hljl-n'>scene</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-s'>&quot;output&quot;</span><span class='hljl-p'>)</span><span class='hljl-t'>
 
 </span>
 </pre>
@@ -64,10 +63,7 @@
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <video controls autoplay loop muted>
-  <source src="http://juliaplots.org/MakieReferenceImages/gallery//edit_polygon/media/video.mp4" type="video/mp4">
-  Your browser does not support mp4. Please use a modern browser like Chrome or Firefox.
-</video>
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery//edit_polygon/media/image.jpg" alt="">
 
     </p>
 </div>

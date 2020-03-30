@@ -50,6 +50,9 @@
     </span><span class='hljl-nf'>hbox</span><span class='hljl-p'>(</span><span class='hljl-n'>s1</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>s2</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>s3</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>s4</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>s5</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>s6</span><span class='hljl-p'>),</span><span class='hljl-t'>
     </span><span class='hljl-n'>mesh_scene</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>parent</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-n'>parent</span><span class='hljl-t'>
 </span><span class='hljl-p'>)</span><span class='hljl-t'>
+
+</span><span class='hljl-cs'># Do not execute beyond this point!</span><span class='hljl-t'>
+
 </span><span class='hljl-nf'>RecordEvents</span><span class='hljl-p'>(</span><span class='hljl-n'>parent</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-s'>&quot;output&quot;</span><span class='hljl-p'>)</span><span class='hljl-t'>
 
 </span>

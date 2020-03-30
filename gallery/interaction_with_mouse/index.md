@@ -51,10 +51,15 @@
 </span><span class='hljl-nf'>on</span><span class='hljl-p'>(</span><span class='hljl-n'>msize</span><span class='hljl-p'>[</span><span class='hljl-k'>end</span><span class='hljl-p'>][</span><span class='hljl-sc'>:value</span><span class='hljl-p'>])</span><span class='hljl-t'> </span><span class='hljl-k'>do</span><span class='hljl-t'> </span><span class='hljl-n'>val</span><span class='hljl-t'>
     </span><span class='hljl-n'>p2</span><span class='hljl-oB'>.</span><span class='hljl-n'>markersize</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-n'>val</span><span class='hljl-t'>
 </span><span class='hljl-k'>end</span><span class='hljl-t'>
-</span><span class='hljl-nf'>RecordEvents</span><span class='hljl-p'>(</span><span class='hljl-nf'>hbox</span><span class='hljl-p'>(</span><span class='hljl-t'>
+
+</span><span class='hljl-n'>final</span><span class='hljl-t'> </span><span class='hljl-oB'>=</span><span class='hljl-t'> </span><span class='hljl-nf'>hbox</span><span class='hljl-p'>(</span><span class='hljl-t'>
     </span><span class='hljl-nf'>vbox</span><span class='hljl-p'>(</span><span class='hljl-n'>b1</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>b2</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>msize</span><span class='hljl-p'>),</span><span class='hljl-t'>
     </span><span class='hljl-n'>scene</span><span class='hljl-t'>
-</span><span class='hljl-p'>),</span><span class='hljl-t'> </span><span class='hljl-s'>&quot;output&quot;</span><span class='hljl-p'>)</span><span class='hljl-t'>
+</span><span class='hljl-p'>)</span><span class='hljl-t'>
+
+</span><span class='hljl-cs'># Do not execute beyond this point!</span><span class='hljl-t'>
+
+</span><span class='hljl-nf'>RecordEvents</span><span class='hljl-p'>(</span><span class='hljl-n'>final</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-s'>&quot;output&quot;</span><span class='hljl-p'>)</span><span class='hljl-t'>
 
 </span>
 </pre>

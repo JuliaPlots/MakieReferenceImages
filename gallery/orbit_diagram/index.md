@@ -50,6 +50,9 @@
     </span><span class='hljl-n'>p</span><span class='hljl-p'>,</span><span class='hljl-t'>
     </span><span class='hljl-nf'>vbox</span><span class='hljl-p'>(</span><span class='hljl-n'>r1</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>r2</span><span class='hljl-p'>)</span><span class='hljl-t'>
 </span><span class='hljl-p'>)</span><span class='hljl-t'>
+
+</span><span class='hljl-cs'># Do not execute beyond this point!</span><span class='hljl-t'>
+</span><span class='hljl-n'>channel_gap</span><span class='hljl-t'>
 </span><span class='hljl-nf'>RecordEvents</span><span class='hljl-p'>(</span><span class='hljl-n'>scene</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-s'>&quot;output&quot;</span><span class='hljl-p'>)</span><span class='hljl-t'>
 
 </span>
