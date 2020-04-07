@@ -1,14 +1,6 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/JuliaDocs/Documenter.jl/assets/html/documenter.css">
-    <link rel="stylesheet" href="../syntaxtheme.css">
+## colors
 
-  </head>
-  <body>
-
-<h2>colors</h2>
+```@raw html
 <pre class='hljl'>
 <span class='hljl-t'>
 
@@ -19,14 +11,14 @@
 </span>
 </pre>
 
+```
+```@raw html
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery//colors_1/media/image.jpg" alt="">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery//colors/media/image.jpg" alt="">
 
     </p>
 </div>
 
-</body>
-</html>
-
+```

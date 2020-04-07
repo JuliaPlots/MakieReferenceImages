@@ -4,10 +4,11 @@
 <pre class='hljl'>
 <span class='hljl-t'>
 </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>AbstractPlotting</span><span class='hljl-oB'>:</span><span class='hljl-t'> </span><span class='hljl-n'>textslider</span><span class='hljl-t'>
-</span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>GeometryTypes</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>FileIO</span><span class='hljl-t'>
+</span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>GeometryBasics</span><span class='hljl-p'>,</span><span class='hljl-t'> </span><span class='hljl-n'>FileIO</span><span class='hljl-t'>
 </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>LinearAlgebra</span><span class='hljl-t'>
 
 </span><span class='hljl-k'>using</span><span class='hljl-t'> </span><span class='hljl-n'>AbstractPlotting</span><span class='hljl-t'>
+
 
 
 </span><span class='hljl-s'>&quot;&quot;&quot;
@@ -30,7 +31,7 @@
     </span><span class='hljl-n'>position_m</span><span class='hljl-oB'>::</span><span class='hljl-n'>Vec3f0</span><span class='hljl-t'>
     </span><span class='hljl-n'>velocity_mps</span><span class='hljl-oB'>::</span><span class='hljl-n'>Vec3f0</span><span class='hljl-t'>
     </span><span class='hljl-n'>color</span><span class='hljl-oB'>::</span><span class='hljl-n'>Symbol</span><span class='hljl-t'>
-    </span><span class='hljl-n'>mesh</span><span class='hljl-oB'>::</span><span class='hljl-n'>Mesh</span><span class='hljl-t'>
+    </span><span class='hljl-n'>mesh</span><span class='hljl-oB'>::</span><span class='hljl-n'>AbstractPlotting</span><span class='hljl-oB'>.</span><span class='hljl-n'>Mesh</span><span class='hljl-t'>
 </span><span class='hljl-k'>end</span><span class='hljl-t'>
 
 
