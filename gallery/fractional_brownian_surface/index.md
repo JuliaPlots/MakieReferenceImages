@@ -54,7 +54,7 @@ https://en.wikipedia.org/wiki/Laplacian_matrix
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery//fractional_brownian_surface/media/image.jpg" alt="">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery//fractional_brownian_surface/media/image.png" alt="">
 
     </p>
 </div>

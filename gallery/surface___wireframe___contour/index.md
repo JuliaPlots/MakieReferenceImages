@@ -24,7 +24,7 @@
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery//surface___wireframe___contour/media/image.jpg" alt="">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery//surface___wireframe___contour/media/image.png" alt="">
 
     </p>
 </div>

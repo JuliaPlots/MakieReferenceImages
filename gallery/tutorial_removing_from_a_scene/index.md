@@ -35,21 +35,21 @@
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery//tutorial_removing_from_a_scene/media/tutorial_removing_from_a_scene-1.jpg" alt="">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery//tutorial_removing_from_a_scene/media/tutorial_removing_from_a_scene-1.png" alt="">
 
     </p>
 </div>
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery//tutorial_removing_from_a_scene/media/tutorial_removing_from_a_scene-2.jpg" alt="">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery//tutorial_removing_from_a_scene/media/tutorial_removing_from_a_scene-2.png" alt="">
 
     </p>
 </div>
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery//tutorial_removing_from_a_scene/media/tutorial_removing_from_a_scene-3.jpg" alt="">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery//tutorial_removing_from_a_scene/media/tutorial_removing_from_a_scene-3.png" alt="">
 
     </p>
 </div>

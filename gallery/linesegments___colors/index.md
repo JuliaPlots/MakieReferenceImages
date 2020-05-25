@@ -20,7 +20,7 @@
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery//linesegments___colors/media/image.jpg" alt="">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery//linesegments___colors/media/image.png" alt="">
 
     </p>
 </div>

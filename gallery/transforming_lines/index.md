@@ -49,14 +49,14 @@
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery//transforming_lines/media/transforming_lines-1.jpg" alt="">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery//transforming_lines/media/transforming_lines-1.png" alt="">
 
     </p>
 </div>
 
 <div style="display:inline-block">
     <p style="display:inline-block; text-align: center">
-        <img src="http://juliaplots.org/MakieReferenceImages/gallery//transforming_lines/media/transforming_lines-2.jpg" alt="">
+        <img src="http://juliaplots.org/MakieReferenceImages/gallery//transforming_lines/media/transforming_lines-2.png" alt="">
 
     </p>
 </div>
